@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_ground">
+    <ImageView
+
+        android:id="@+id/teacherimage"
+        android:src="@drawable/teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+           android:background="#FFFFFF"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:text="login"
+            android:textStyle="bold|italic"
+            android:textSize="30dp"
+            android:id="@+id/loginteacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="#FFFFFF"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="register"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:id="@+id/registerteacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_ground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView
+       android:id="@+id/new_list"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+    </ListView>
+    <Button
+        android:background="#FFFFFF"
+        android:layout_margin="40dp"
+        android:textStyle="bold|italic"
+        android:id="@+id/logout"
+        android:text="logout"
+        android:textColor="#000000"
+        android:textSize="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+</LinearLayout>

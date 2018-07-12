@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "38454562765",
+    "firebase_url": "https://attendencemaker.firebaseio.com",
+    "project_id": "attendencemaker",
+    "storage_bucket": "attendencemaker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38454562765:android:32820f7a5cefa5bf",
+        "android_client_info": {
+          "package_name": "com.globsyn.attendencemaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38454562765-58pkgigmgnm4ltjhkrogkl073jh75anc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.globsyn.attendencemaker",
+            "certificate_hash": "8bec30c79f9bceb50df368f68089b4fb2e440db9"
+          }
+        },
+        {
+          "client_id": "38454562765-6vn2l342mddia6rq8ldcptukepvuk4nu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBed1t0sabEBPPTPfq1Nxjb-XeVJJz9Kg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38454562765-6vn2l342mddia6rq8ldcptukepvuk4nu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

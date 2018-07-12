@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_ground">
+
+
+    <Button
+        android:textStyle="bold|italic"
+        android:background="#FFFFFF"
+        android:layout_margin="10dp"
+        android:id="@+id/button_generate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Generate QR CODE" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+
+    <Button
+        android:textStyle="bold|italic"
+        android:background="#FFFFFF"
+        android:layout_margin="10dp"
+        android:id="@+id/fetch_button"
+
+        android:text="FETCH DATA"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_ground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:src="@drawable/student_image"
+        android:id="@+id/student"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+            <Button
+               android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/studentlogin"
+                android:textColor="#000000"
+                android:background="#FFFFFF"
+                android:text="LOGIN"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_margin="10dp"
+                android:textColor="#000000"
+                android:background="#FFFFFF"
+                android:id="@+id/studentregister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="REGISTER"
+                android:textStyle="bold|italic"
+                android:textSize="30dp"/>
+
+    </LinearLayout>
+</LinearLayout>

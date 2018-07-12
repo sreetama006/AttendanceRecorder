@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AttendenceMaker</string>
+    <string-array name="Subjects">
+        <item>Digital Electronics</item>
+        <item>Digital Communication</item>
+        <item>Telecommunication</item>
+        <item>Java</item>
+        <item>Principle of management</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

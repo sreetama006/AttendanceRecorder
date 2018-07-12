@@ -1,0 +1,95 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_ground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/teacher_register_name"
+        android:text="NAME:"
+        android:textStyle="bold|italic"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/full_name"
+        android:textSize="20dp"
+        android:hint="ENTER YOUR FULL NAME"
+        android:textColorHint="@color/till"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/teacher_register_dept"
+        android:text="DEPARTMENT:"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/dept"
+        android:textSize="20dp"
+        android:textColorHint="@color/till"
+        android:hint="ENTER DEPARTMENT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/subject"
+        android:textSize="30dp"
+        android:text="SUBJECT"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+   <EditText
+       android:id="@+id/edit_subject"
+       android:hint="ENTER SUBJECT NAME:"
+       android:textColorHint="@color/till"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/teacher_create_username"
+        android:text="ENTER EMAIL:"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/user_name"
+        android:textSize="20dp"
+        android:textColorHint="@color/till"
+        android:hint="ENTER YOUR EMAIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/teacher_CREATE_PASSWORD"
+        android:text="CREATE PASSWORD:"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/pass_word"
+        android:textSize="20dp"
+        android:textColorHint="@color/till"
+        android:hint="ENTER DESIRED PASSWORD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+       android:background="#FFFFFF"
+        android:id="@+id/teacher_register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:text="REGISTER"
+        android:textSize="30dp" />
+
+
+</LinearLayout>
